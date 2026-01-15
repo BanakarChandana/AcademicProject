@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom"; // Import navigation hook
-import KartSet from "./KartSet";
+
 
 function RithuDes() {
   const navigate = useNavigate(); // Initialize navigation
@@ -81,15 +81,7 @@ function RithuDes() {
         </div>
       </div>
 
-      {/* Section Title */}
-      <div className="flex items-center justify-center mt-6">
-        <p className="text-4xl">Ritu Kumar Designs</p>
-      </div>
-
-      {/* KartSet Component */}
-      <div>
-        <KartSet />
-      </div>
+   
     </div>
   );
 }
